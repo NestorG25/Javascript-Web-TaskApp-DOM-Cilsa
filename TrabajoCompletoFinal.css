@@ -1,0 +1,423 @@
+/*Estilos de la PaginaNueva.css*/
+.contenedor3{
+    flex: 3; /* Proporción mayor para esta sección */
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;}
+
+    * { margin: 0;
+        padding: 0;
+        font: normal 12px verdana;
+    }
+    /* Ajustes para la barra de la colecta */
+/* Estilo adicional para hacer la barra de la colecta más larga */
+    .navbar.bg-light {
+    width: 100%; /* Ocupa todo el ancho de la página */
+    padding: 10px 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    text-align: center; /* Centra el contenido dentro de la barra */
+    }
+    .contenedor2{ 
+        /* Estilo para la sección lateral (contenedor2) */
+        flex: 1; /* Proporción menor para esta sección */
+        width: 450px;
+        height: auto;
+        margin: 10px auto;
+        border-radius: 15px;
+        box-shadow: 5px 5px 15px;
+        padding: 10px 30px;
+        background-color: lightblue; /* Cambiado para que coincida con el fondo de Actividad DOM */
+}
+
+    fieldset {border-radius: 20px;
+        padding: 15px;
+        background: lightblue;
+        margin: 15px 0;
+        font: italic 12px arial;
+        box-shadow: 3px 3px 3px;
+        text-align: center;
+    }
+    legend { padding: 5px;
+        margin-left: 40px;
+        background: lightblue;
+        border-radius: 5px;
+        text-align: left;
+    }
+    span {font-weight:bold;
+        font-style: normal;
+        font-size: 16px;
+    }
+    h5 {text-align: center;
+        font: bold 14px verdana;
+        margin-bottom: 10px;
+    }
+    p { margin: 5px auto; 
+        text-align: center;
+        width: 100%;
+    }
+    
+    p label {width: 110px;
+        text-align: right;
+        margin-right: 0;
+        display: inline-block;
+    }
+    p input {margin-left: 0px;
+        width: 100px;
+    }
+    input[type="button"] {font: bold 15px arial;
+        background: white;
+        border-radius: 5px;
+        padding: 5px ;
+        margin-top: 10px;
+        box-shadow: 5px 5px 5px;
+    }
+    input[type="button"]:hover {box-shadow: 2px 2px 2px;}
+
+/* Estilos para la página de inicio */
+        /* Definir los estilos CSS para la clase .contenedor */
+        .contenedor-principal {
+            display: flex; /* Coloca las secciones lado a lado */
+            gap: 20px; /* Espacio entre los contenedores */
+            justify-content: space-between;
+            align-items: flex-start;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Opcional: Estilo adicional para cada fieldset */
+        fieldset {
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        
+        legend {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+
+/* Estilos generales */
+* { 
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans";
+    background-color: #ddf0ff;
+}
+
+/* Contenedor principal */
+.contenedor {
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 1200px;
+    margin: 15px auto;
+    padding: 20px;
+}
+
+.cont {
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px;
+    padding: 10px 30px;
+    /* float: right; */
+}
+
+.contenedor3 {
+    width: 700px;
+}
+
+/* Estilo del contenido para el DOM */
+.oculto {
+    display: none;
+}
+
+.visible {
+    display: inline;
+}
+
+a {
+    color: blue;
+    cursor: pointer;
+}
+
+a:hover {
+    color:  #fff;
+    background-color: #b22222;
+}
+
+#infopag {
+    background-color: #1da1f2;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    margin: 20px 0px;
+    font-size: 25px;
+    border: thin solid rgb(29,13,117);
+}
+
+/* Estilo para los botones */
+input[type="button"] {
+    font: bold 15px Arial, sans-serif; /* Fuente en negrita */
+    background-color: #4CAF50; /* Fondo verde */
+    color: white; /* Texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin bordes adicionales */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+    margin-top: 10px; /* Margen superior */
+}
+
+input[type="button"]:hover {
+    background-color: #45a049; /* Fondo más oscuro al pasar el mouse */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra más fuerte al hacer hover */
+}
+
+/* Estilo para los botones .button (botones grandes) */
+.button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif; /* Asegurarse de que la fuente sea correcta */
+    background-color: #0a2a07; /* Fondo verde oscuro */
+    color: white; /* Texto blanco */
+    border: none; /* Sin bordes adicionales */
+    border-radius: 6px; /* Bordes redondeados */
+    cursor: pointer; /* Indicador de clic */
+    margin: 20px 0px; /* Espaciado entre botones */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.button:hover {
+    background-color: #b22222; /* Fondo rojo al hacer hover */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra más fuerte */
+}
+
+/* Asegurarse de que el último botón tenga un color específico */
+.button:last-of-type {
+    background-color: #b22222; /* Color rojo para el último botón */
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 10px; /* Espaciado inferior */
+    color: #333; /* Color de texto predeterminado */
+}
+
+/* Asegura que el contenido flotante se limpie correctamente */
+.clear {
+    clear: both;
+}
+
+/* Estilos responsivos */
+@media only screen and (max-width: 464px) {
+    .button {
+        margin-bottom: 5px;
+    }
+}
+
+
+/* Estilo general para la barra de navegación */
+.navbar {
+    background-color: #4CAF50; /* Color verde para la barra */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para los enlaces de navegación */
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+/* Efecto hover en los enlaces */
+.navbar a:hover {
+    color: #e1e2e8; /* Cambia el color a amarillo cuando pasas el ratón */
+}
+
+/* Estilo para el título de la barra de navegación */
+.navbar .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff00;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    background-color: #1da1f2; /* Color azul */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Centra el texto */
+    display: inline-block; /* Asegura que solo ocupe el ancho del texto */
+    padding: 10px 20px; /* Añade espacio interno para cubrir toda la oración */
+    margin: 20px auto; /* Centra la caja */
+    font-size: 25px; /* Tamaño del texto */
+    color: white; /* Color del texto */
+    border: thin solid rgb(29,13,117); /* Línea delgada para destacar */
+}
+
+/* Espaciado y alineación */
+.navbar .navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* Estilo general para las tarjetas */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para el texto */
+.card p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Botón Delete */
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Botón Delete: colores y animación */
+.btn-danger {
+    background-color: #ff4d4d;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #ff1a1a;
+}
+
+
+
+/* Estilo general para la barra de navegación */
+.navbar {
+    background-color: #4CAF50; /* Color verde para la barra */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para los enlaces de navegación */
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+/* Efecto hover en los enlaces */
+.navbar a:hover {
+    color: #e1e2e8; /* Cambia el color a amarillo cuando pasas el ratón */
+}
+
+/* Estilo para el título de la barra de navegación */
+.navbar .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff00;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Espaciado y alineación */
+.navbar .navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* Estilo general para las tarjetas */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para el texto */
+.card p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Botón Delete */
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Botón Delete: colores y animación */
+.btn-danger {
+    background-color: #ff4d4d;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #ff1a1a;
+}
